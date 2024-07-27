@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h3 align="center">SIMPO Web</h3>
+<p align="center">Sistem Informasi Manajemen Produk</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/version-1.0.0-blue" alt="version 1.0.0"/>
+  <img src="https://img.shields.io/badge/author-Oneyel%20Code-orange" alt="author Oneyel Code"/>
+</p>
 
-## Getting Started
+### Requirements
 
-First, run the development server:
+- Node.js (v18 or higher)
+- npm
+- TypeScript
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Getting Started
+
+- Clone this repository
+
+```sh
+  git clone git@github.com:oneyelcode/simpo-web.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Move branch development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+  git checkout development
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- create .env file
 
-## Learn More
+```sh
+  NEXT_PUBLIC_BASE_URL=
+```
 
-To learn more about Next.js, take a look at the following resources:
+- Install dependencies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
+  npm install
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Run the development server
 
-## Deploy on Vercel
+```sh
+  npm run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Dependencies
+
+- [Next.js](https://nextjs.org)
+- [Typescript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+
+---
+
+Copyright &copy; 2024 Oneyel Code.
