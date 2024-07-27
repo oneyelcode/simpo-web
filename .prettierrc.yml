@@ -1,0 +1,7 @@
+useEditorConfig: true
+semi: false
+singleQuote: true
+trailingComma: es5
+proseWrap: preserve
+printWidth: 100
+plugins: ['prettier-plugin-tailwindcss']
